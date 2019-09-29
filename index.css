@@ -1,0 +1,88 @@
+body{
+    background-image: url(homeImage.jpg);
+}
+.scoreText{
+    color: #2d2926;
+    list-style-type: none;
+    float: right;
+    font-size: 30px;
+}
+.quiz{
+    color: #2d2926;
+    text-align: center;
+    margin-top: 270px;
+    font-size: 25px;
+    background-color: #e1e6e2;
+    width: 100%;
+}
+.startButton{
+    font-size: 25px;
+}
+button:hover{
+    color: #998686;
+}
+.form{
+    display: none;
+    width: 100%;
+    color: #2d2926;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #e1e6e2;
+    padding: 10px;
+}
+.quizStart {
+      width: 80%;
+      margin-bottom: 100px;
+      text-align:center;
+}
+.questionAnswerForm {
+      width: 100%;
+      padding: 20px;
+      margin-top: 0;
+}
+input[type=radio]{
+  cursor: pointer;
+}
+@media screen and (max-width: 768px){
+  .form{
+    margin-top: 50%;
+    height: 90%;
+    width: 100%;
+    text-align: justify;
+  }
+  fieldset{
+    display: grid;
+    justify-content: center;
+  }
+  .answerOption{ 
+    width: 100%;
+  }
+input[type="radio"] {
+    width: 40px;
+    height: 50px;
+    vertical-align: middle;
+}
+.startButton{
+    margin: 25px;
+}
+.submitButton{
+    padding: 10px;
+    margin: 20px;
+}
+.span{
+  vertical-align: middle;
+}
+.correctFeedback{
+  margin-left: 100px;
+}
+h2{
+  display: inline-flex;
+}
+.nextButton{
+   width: auto;
+   height: 50px;
+}
+.feedback{
+  font-size: 20px;
+}
+}
